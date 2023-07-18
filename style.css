@@ -1,0 +1,69 @@
+.hover-div{
+    width: 800px;
+    border: 1px solid black;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+/* .fast{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    display: inline-block;
+}
+.fast2{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: relative;
+    bottom: 100px;
+    left: 50px; 
+    display: inline-block;
+    margin: -5px; 
+}
+.fast3{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+    display: inline-block;
+    margin: -5px; 
+}   */
+
+
+
+/* Hover Effect */
+.main{
+    height: 300px;
+    width: 300px;
+    position: relative;
+  }
+.main img{
+    max-width: 100%;
+}
+.inner h2{
+    margin-top: 180px;
+    font-size: 30px;
+}
+.inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    width: 0%;
+    height: 0%;
+    background-color: rgba(255, 101, 1, .50);
+    visibility: hidden;
+    transition: .3s;
+    opacity: 0;
+}
+.main:hover .inner{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    
+}
